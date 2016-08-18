@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3942558A0E6E5D2933E53EBDB9BD48C9 /* UIFont+Octicons.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CEFCD2406CC0E6D8DE94EA913D85E81 /* UIFont+Octicons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59C0AFC3892AA98079573ECF0601B622 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		6A4EFEEAC80AD7DF950898006CEB75CF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */; };
+		77D4B1086785659D9833C5BD34FF8A8B /* OcticonsFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E5A20C38E984E66885EDB0CD9B36E /* OcticonsFont-dummy.m */; };
+		7A255012A505C3067ECD8D98268591DB /* UIFont+Octicons.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CEDD4189571EB4817B4B293FFEEEC3 /* UIFont+Octicons.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		94B12434A0681440D3510B76CCB1C877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		9B008A4F5E041AF442BEF91F26421E93 /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9435C5C10D24FD720539B35BFB38714A /* octicons.ttf */; };
+		A1060A0BE37FF711B2D04CB6E0927BF0 /* Pods-OcticonsIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 903576459DC128504CB4884891367DDF /* Pods-OcticonsIOS-dummy.m */; };
+		A18AA001361BD80E9192E194148080F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */; };
+		B0E04AEA9E4BE7FF2C559A68BE708F8A /* Pods-OcticonsIOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 328F12440012CB83F7F7A564FD296EE5 /* Pods-OcticonsIOSTests-dummy.m */; };
+		B3EE372A6F90E85477B3172E83229F52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B96E37C94B86176B12243BAF157275F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FD7FA07E8CCDED7E5E9A65085754747;
+			remoteInfo = "OcticonsFont-OcticonsFont";
+		};
+		EC049AFF11DD47D64A8AD0F9594DE2B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 967C530BA269A511B0B959206A3F15D4;
+			remoteInfo = OcticonsFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015D0E3B09AF6A025F9012B82DE3FB2D /* OcticonsFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OcticonsFont.xcconfig; sourceTree = "<group>"; };
+		03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		06CEDD4189571EB4817B4B293FFEEEC3 /* UIFont+Octicons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Octicons.m"; sourceTree = "<group>"; };
+		17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		286289952AF28C398B442BC7324A1F66 /* Pods-OcticonsIOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OcticonsIOS-resources.sh"; sourceTree = "<group>"; };
+		328F12440012CB83F7F7A564FD296EE5 /* Pods-OcticonsIOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OcticonsIOSTests-dummy.m"; sourceTree = "<group>"; };
+		36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3CEFCD2406CC0E6D8DE94EA913D85E81 /* UIFont+Octicons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+Octicons.h"; sourceTree = "<group>"; };
+		3DBA9964F7E162E72A8BF1AA235E127B /* Pods-OcticonsIOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OcticonsIOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40D3B5DC4CFFF113D4CDF857C102210B /* Pods-OcticonsIOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OcticonsIOS-frameworks.sh"; sourceTree = "<group>"; };
+		495BE5B6999BC87036E79068A0345BA2 /* Pods-OcticonsIOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OcticonsIOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		5B3E5A20C38E984E66885EDB0CD9B36E /* OcticonsFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OcticonsFont-dummy.m"; sourceTree = "<group>"; };
+		7EAEB68A558C755F358EEE21E0C51676 /* Pods-OcticonsIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OcticonsIOS.release.xcconfig"; sourceTree = "<group>"; };
+		8189CBF771760674771C987B2DB9DDEC /* Pods-OcticonsIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OcticonsIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		858C0BB27816A3EC40A1EC3B2E9D3693 /* Pods-OcticonsIOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OcticonsIOSTests-resources.sh"; sourceTree = "<group>"; };
+		8BF184410DEA9071EC2060B8E3323355 /* Pods-OcticonsIOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OcticonsIOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		903576459DC128504CB4884891367DDF /* Pods-OcticonsIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OcticonsIOS-dummy.m"; sourceTree = "<group>"; };
+		925EE65D3AB0DBEFF748943215305408 /* Pods-OcticonsIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OcticonsIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9435C5C10D24FD720539B35BFB38714A /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = octicons.ttf; path = Fonts/octicons.ttf; sourceTree = "<group>"; };
+		AFFC65102DF008ACA05C0E5EC9610526 /* Pods-OcticonsIOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OcticonsIOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6695A5A81C6E068E4D0F63B552B7C1E /* Pods-OcticonsIOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OcticonsIOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6CAC2679312930F924906BAFEE7A826 /* OcticonsFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OcticonsFont-prefix.pch"; sourceTree = "<group>"; };
+		CC0E7F454FF40461C0DB931330ACF12F /* OcticonsFont.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OcticonsFont.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D302D3402CE01C63316DE4128D6DA294 /* Pods-OcticonsIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OcticonsIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE6771D7C22C364EEA1692EC73A4A80D /* ResourceBundle-OcticonsFont-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OcticonsFont-Info.plist"; sourceTree = "<group>"; };
+		E5D1BB2C0C9BD6DDF8853404E43270A0 /* libPods-OcticonsIOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OcticonsIOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92158439799A30CDCC2098DD10C51A4 /* libPods-OcticonsIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OcticonsIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DED0DC30485DAC8A4109A96B6A8A2C /* libOcticonsFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOcticonsFont.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6141B64068A6AF369EC0EE5C4BB81C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A217F0443C6AFAEB6F6C54CF454ED415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EE372A6F90E85477B3172E83229F52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0A5FDB89EEB91D3A31C2F54D5A74A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4EFEEAC80AD7DF950898006CEB75CF /* CoreText.framework in Frameworks */,
+				94B12434A0681440D3510B76CCB1C877 /* Foundation.framework in Frameworks */,
+				A18AA001361BD80E9192E194148080F6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D754F9BD4E6F0934D6610A45A9B6A59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C0AFC3892AA98079573ECF0601B622 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		119D7D439DFEA95D5C6B2E6AB322724A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */,
+				36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */,
+				17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				119D7D439DFEA95D5C6B2E6AB322724A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1612F2329F88346076AC1D0F7A272707 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9435C5C10D24FD720539B35BFB38714A /* octicons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1C6B64EF7C35294072F676B9EDAD3002 /* Pods-OcticonsIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DBA9964F7E162E72A8BF1AA235E127B /* Pods-OcticonsIOSTests-acknowledgements.markdown */,
+				8BF184410DEA9071EC2060B8E3323355 /* Pods-OcticonsIOSTests-acknowledgements.plist */,
+				328F12440012CB83F7F7A564FD296EE5 /* Pods-OcticonsIOSTests-dummy.m */,
+				495BE5B6999BC87036E79068A0345BA2 /* Pods-OcticonsIOSTests-frameworks.sh */,
+				858C0BB27816A3EC40A1EC3B2E9D3693 /* Pods-OcticonsIOSTests-resources.sh */,
+				925EE65D3AB0DBEFF748943215305408 /* Pods-OcticonsIOSTests.debug.xcconfig */,
+				D302D3402CE01C63316DE4128D6DA294 /* Pods-OcticonsIOSTests.release.xcconfig */,
+			);
+			name = "Pods-OcticonsIOSTests";
+			path = "Target Support Files/Pods-OcticonsIOSTests";
+			sourceTree = "<group>";
+		};
+		514C0170E72F3F4F2AED278AD129EA1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				015D0E3B09AF6A025F9012B82DE3FB2D /* OcticonsFont.xcconfig */,
+				5B3E5A20C38E984E66885EDB0CD9B36E /* OcticonsFont-dummy.m */,
+				B6CAC2679312930F924906BAFEE7A826 /* OcticonsFont-prefix.pch */,
+				DE6771D7C22C364EEA1692EC73A4A80D /* ResourceBundle-OcticonsFont-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OcticonsFont";
+			sourceTree = "<group>";
+		};
+		6561377EB2A582BC7972AF9C44FDE79A /* Pods-OcticonsIOS */ = {
+			isa = PBXGroup;
+			children = (
+				B6695A5A81C6E068E4D0F63B552B7C1E /* Pods-OcticonsIOS-acknowledgements.markdown */,
+				AFFC65102DF008ACA05C0E5EC9610526 /* Pods-OcticonsIOS-acknowledgements.plist */,
+				903576459DC128504CB4884891367DDF /* Pods-OcticonsIOS-dummy.m */,
+				40D3B5DC4CFFF113D4CDF857C102210B /* Pods-OcticonsIOS-frameworks.sh */,
+				286289952AF28C398B442BC7324A1F66 /* Pods-OcticonsIOS-resources.sh */,
+				8189CBF771760674771C987B2DB9DDEC /* Pods-OcticonsIOS.debug.xcconfig */,
+				7EAEB68A558C755F358EEE21E0C51676 /* Pods-OcticonsIOS.release.xcconfig */,
+			);
+			name = "Pods-OcticonsIOS";
+			path = "Target Support Files/Pods-OcticonsIOS";
+			sourceTree = "<group>";
+		};
+		66F6D8ECAEC74E62024AE00DFF6D101E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2DED0DC30485DAC8A4109A96B6A8A2C /* libOcticonsFont.a */,
+				E92158439799A30CDCC2098DD10C51A4 /* libPods-OcticonsIOS.a */,
+				E5D1BB2C0C9BD6DDF8853404E43270A0 /* libPods-OcticonsIOSTests.a */,
+				CC0E7F454FF40461C0DB931330ACF12F /* OcticonsFont.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				9AD571EA1C5D287D2364FC748DA72FC9 /* Pods */,
+				66F6D8ECAEC74E62024AE00DFF6D101E /* Products */,
+				F5D91F067F96D54DA77D39027EBC09E9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD571EA1C5D287D2364FC748DA72FC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F992554009C0FBF783C35EA8998DACD2 /* OcticonsFont */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5D91F067F96D54DA77D39027EBC09E9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6561377EB2A582BC7972AF9C44FDE79A /* Pods-OcticonsIOS */,
+				1C6B64EF7C35294072F676B9EDAD3002 /* Pods-OcticonsIOSTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F992554009C0FBF783C35EA8998DACD2 /* OcticonsFont */ = {
+			isa = PBXGroup;
+			children = (
+				3CEFCD2406CC0E6D8DE94EA913D85E81 /* UIFont+Octicons.h */,
+				06CEDD4189571EB4817B4B293FFEEEC3 /* UIFont+Octicons.m */,
+				1612F2329F88346076AC1D0F7A272707 /* Resources */,
+				514C0170E72F3F4F2AED278AD129EA1E /* Support Files */,
+			);
+			path = OcticonsFont;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DEFF99592FB1EC560E6869974B8BDACE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3942558A0E6E5D2933E53EBDB9BD48C9 /* UIFont+Octicons.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		141DD99491AA2A988DCD5DE2FA2A8961 /* Pods-OcticonsIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051B6DD39334BE4493783C36D1447B70 /* Build configuration list for PBXNativeTarget "Pods-OcticonsIOS" */;
+			buildPhases = (
+				CDA101C503CBFF36688F11DDE9600E87 /* Sources */,
+				D754F9BD4E6F0934D6610A45A9B6A59B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD352C6F5166E0E08A9C76D2371E37D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-OcticonsIOS";
+			productName = "Pods-OcticonsIOS";
+			productReference = E92158439799A30CDCC2098DD10C51A4 /* libPods-OcticonsIOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		824E0C0293413B56D6D84F1FD3EDF764 /* Pods-OcticonsIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5D1EE47ACFED31AB0DA750527467B4 /* Build configuration list for PBXNativeTarget "Pods-OcticonsIOSTests" */;
+			buildPhases = (
+				D8D4F11EF3084FF3C94529061427CBCF /* Sources */,
+				A217F0443C6AFAEB6F6C54CF454ED415 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OcticonsIOSTests";
+			productName = "Pods-OcticonsIOSTests";
+			productReference = E5D1BB2C0C9BD6DDF8853404E43270A0 /* libPods-OcticonsIOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		967C530BA269A511B0B959206A3F15D4 /* OcticonsFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5C8CC0295D7B549BEBE4040D757747 /* Build configuration list for PBXNativeTarget "OcticonsFont" */;
+			buildPhases = (
+				69AFA956A2A95B77F7443C7657C4D018 /* Sources */,
+				CC0A5FDB89EEB91D3A31C2F54D5A74A2 /* Frameworks */,
+				DEFF99592FB1EC560E6869974B8BDACE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E55C2BC4248E0B18433EA457591132C /* PBXTargetDependency */,
+			);
+			name = OcticonsFont;
+			productName = OcticonsFont;
+			productReference = F2DED0DC30485DAC8A4109A96B6A8A2C /* libOcticonsFont.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9FD7FA07E8CCDED7E5E9A65085754747 /* OcticonsFont-OcticonsFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A103270D38BD98CEBEF0F494B39E9B56 /* Build configuration list for PBXNativeTarget "OcticonsFont-OcticonsFont" */;
+			buildPhases = (
+				659D4AB4E9C159123CAA63B738304003 /* Sources */,
+				6141B64068A6AF369EC0EE5C4BB81C4D /* Frameworks */,
+				6264ED60D9DDF7893114AACA2BD13492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OcticonsFont-OcticonsFont";
+			productName = "OcticonsFont-OcticonsFont";
+			productReference = CC0E7F454FF40461C0DB931330ACF12F /* OcticonsFont.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 66F6D8ECAEC74E62024AE00DFF6D101E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				967C530BA269A511B0B959206A3F15D4 /* OcticonsFont */,
+				9FD7FA07E8CCDED7E5E9A65085754747 /* OcticonsFont-OcticonsFont */,
+				141DD99491AA2A988DCD5DE2FA2A8961 /* Pods-OcticonsIOS */,
+				824E0C0293413B56D6D84F1FD3EDF764 /* Pods-OcticonsIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6264ED60D9DDF7893114AACA2BD13492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B008A4F5E041AF442BEF91F26421E93 /* octicons.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		659D4AB4E9C159123CAA63B738304003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69AFA956A2A95B77F7443C7657C4D018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D4B1086785659D9833C5BD34FF8A8B /* OcticonsFont-dummy.m in Sources */,
+				7A255012A505C3067ECD8D98268591DB /* UIFont+Octicons.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA101C503CBFF36688F11DDE9600E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1060A0BE37FF711B2D04CB6E0927BF0 /* Pods-OcticonsIOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D4F11EF3084FF3C94529061427CBCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E04AEA9E4BE7FF2C559A68BE708F8A /* Pods-OcticonsIOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E55C2BC4248E0B18433EA457591132C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OcticonsFont-OcticonsFont";
+			target = 9FD7FA07E8CCDED7E5E9A65085754747 /* OcticonsFont-OcticonsFont */;
+			targetProxy = 0B96E37C94B86176B12243BAF157275F /* PBXContainerItemProxy */;
+		};
+		DD352C6F5166E0E08A9C76D2371E37D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OcticonsFont;
+			target = 967C530BA269A511B0B959206A3F15D4 /* OcticonsFont */;
+			targetProxy = EC049AFF11DD47D64A8AD0F9594DE2B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0D617CC3BFE558E49236F17D47C4A6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015D0E3B09AF6A025F9012B82DE3FB2D /* OcticonsFont.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OcticonsFont";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/OcticonsFont/ResourceBundle-OcticonsFont-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = OcticonsFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		183808D76686B39E46E710D1BC3E446E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8189CBF771760674771C987B2DB9DDEC /* Pods-OcticonsIOS.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		741B46B4693C4346E13AEDD637D4D76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015D0E3B09AF6A025F9012B82DE3FB2D /* OcticonsFont.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OcticonsFont/OcticonsFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C0CEA7ED084E79F76C181ECD2B0429BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAEB68A558C755F358EEE21E0C51676 /* Pods-OcticonsIOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C2F5A0585BCA6448FD7CF9240F7F702F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015D0E3B09AF6A025F9012B82DE3FB2D /* OcticonsFont.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OcticonsFont/OcticonsFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3389E7D9DB2A55481838F128BCAE3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015D0E3B09AF6A025F9012B82DE3FB2D /* OcticonsFont.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OcticonsFont";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/OcticonsFont/ResourceBundle-OcticonsFont-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = OcticonsFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DE6F99DF092A8A7B0C5C0B868E2DE9F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D302D3402CE01C63316DE4128D6DA294 /* Pods-OcticonsIOSTests.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FFBE27CCACF2EBF4842A35207279D8C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925EE65D3AB0DBEFF748943215305408 /* Pods-OcticonsIOSTests.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051B6DD39334BE4493783C36D1447B70 /* Build configuration list for PBXNativeTarget "Pods-OcticonsIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183808D76686B39E46E710D1BC3E446E /* Debug */,
+				C0CEA7ED084E79F76C181ECD2B0429BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E5D1EE47ACFED31AB0DA750527467B4 /* Build configuration list for PBXNativeTarget "Pods-OcticonsIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBE27CCACF2EBF4842A35207279D8C3 /* Debug */,
+				DE6F99DF092A8A7B0C5C0B868E2DE9F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A103270D38BD98CEBEF0F494B39E9B56 /* Build configuration list for PBXNativeTarget "OcticonsFont-OcticonsFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3389E7D9DB2A55481838F128BCAE3AA /* Debug */,
+				0D617CC3BFE558E49236F17D47C4A6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5C8CC0295D7B549BEBE4040D757747 /* Build configuration list for PBXNativeTarget "OcticonsFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F5A0585BCA6448FD7CF9240F7F702F /* Debug */,
+				741B46B4693C4346E13AEDD637D4D76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

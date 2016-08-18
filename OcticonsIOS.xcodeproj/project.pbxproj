@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4029904B71755E6FEDB97C6A /* libPods-OcticonsIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D50BB756332FEF90C354A1A8 /* libPods-OcticonsIOS.a */; };
 		7A1DA81717F25B2F0029024C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1DA81617F25B2F0029024C /* Foundation.framework */; };
 		7A1DA81917F25B2F0029024C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1DA81817F25B2F0029024C /* CoreGraphics.framework */; };
 		7A1DA81B17F25B2F0029024C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1DA81A17F25B2F0029024C /* UIKit.framework */; };
@@ -21,10 +22,9 @@
 		7A1DA83B17F25B300029024C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1DA81A17F25B2F0029024C /* UIKit.framework */; };
 		7A1DA84317F25B300029024C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A1DA84117F25B300029024C /* InfoPlist.strings */; };
 		7A1DA84517F25B300029024C /* OcticonsIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DA84417F25B300029024C /* OcticonsIOSTests.m */; };
-		7A1DA85017F25B7D0029024C /* UIFont+Octicons.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DA84F17F25B7D0029024C /* UIFont+Octicons.m */; };
 		7A1DA85317F25C310029024C /* NSString+Octicons.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DA85217F25C310029024C /* NSString+Octicons.m */; };
 		7A1DA85617F26AC30029024C /* UIImage+Octicons.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DA85517F26AC30029024C /* UIImage+Octicons.m */; };
-		7A1DA85817F27C500029024C /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A1DA85717F27C500029024C /* octicons.ttf */; };
+		BB9F1D4499BC70FC8C628CF2 /* libPods-OcticonsIOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 984E1D3991A634C04C1F1938 /* libPods-OcticonsIOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45E390DE1D6FCD5C07561780 /* Pods-OcticonsIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OcticonsIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OcticonsIOSTests/Pods-OcticonsIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4AE81815D730D5D5FC36A048 /* Pods-OcticonsIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OcticonsIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OcticonsIOS/Pods-OcticonsIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		53C5E009DDAF436F88E8E219 /* Pods-OcticonsIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OcticonsIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OcticonsIOSTests/Pods-OcticonsIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A1DA81317F25B2F0029024C /* OcticonsIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OcticonsIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1DA81617F25B2F0029024C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A1DA81817F25B2F0029024C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,13 +60,13 @@
 		7A1DA84017F25B300029024C /* OcticonsIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OcticonsIOSTests-Info.plist"; sourceTree = "<group>"; };
 		7A1DA84217F25B300029024C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A1DA84417F25B300029024C /* OcticonsIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OcticonsIOSTests.m; sourceTree = "<group>"; };
-		7A1DA84E17F25B7D0029024C /* UIFont+Octicons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Octicons.h"; sourceTree = "<group>"; };
-		7A1DA84F17F25B7D0029024C /* UIFont+Octicons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Octicons.m"; sourceTree = "<group>"; };
 		7A1DA85117F25C310029024C /* NSString+Octicons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Octicons.h"; sourceTree = "<group>"; };
 		7A1DA85217F25C310029024C /* NSString+Octicons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Octicons.m"; sourceTree = "<group>"; };
 		7A1DA85417F26AC30029024C /* UIImage+Octicons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Octicons.h"; sourceTree = "<group>"; };
 		7A1DA85517F26AC30029024C /* UIImage+Octicons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Octicons.m"; sourceTree = "<group>"; };
-		7A1DA85717F27C500029024C /* octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = octicons.ttf; sourceTree = "<group>"; };
+		984E1D3991A634C04C1F1938 /* libPods-OcticonsIOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OcticonsIOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C86EE0147F28F013F8665B /* Pods-OcticonsIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OcticonsIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OcticonsIOS/Pods-OcticonsIOS.release.xcconfig"; sourceTree = "<group>"; };
+		D50BB756332FEF90C354A1A8 /* libPods-OcticonsIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OcticonsIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 				7A1DA81917F25B2F0029024C /* CoreGraphics.framework in Frameworks */,
 				7A1DA81B17F25B2F0029024C /* UIKit.framework in Frameworks */,
 				7A1DA81717F25B2F0029024C /* Foundation.framework in Frameworks */,
+				4029904B71755E6FEDB97C6A /* libPods-OcticonsIOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +88,7 @@
 				7A1DA83917F25B2F0029024C /* XCTest.framework in Frameworks */,
 				7A1DA83B17F25B300029024C /* UIKit.framework in Frameworks */,
 				7A1DA83A17F25B300029024C /* Foundation.framework in Frameworks */,
+				BB9F1D4499BC70FC8C628CF2 /* libPods-OcticonsIOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +102,7 @@
 				7A1DA83E17F25B300029024C /* OcticonsIOSTests */,
 				7A1DA81517F25B2F0029024C /* Frameworks */,
 				7A1DA81417F25B2F0029024C /* Products */,
+				D4399589CF933384D6821F49 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +122,8 @@
 				7A1DA81817F25B2F0029024C /* CoreGraphics.framework */,
 				7A1DA81A17F25B2F0029024C /* UIKit.framework */,
 				7A1DA83817F25B2F0029024C /* XCTest.framework */,
+				D50BB756332FEF90C354A1A8 /* libPods-OcticonsIOS.a */,
+				984E1D3991A634C04C1F1938 /* libPods-OcticonsIOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,8 +136,6 @@
 				7A1DA82817F25B2F0029024C /* Main_iPhone.storyboard */,
 				7A1DA82E17F25B2F0029024C /* SNTXViewController.h */,
 				7A1DA82F17F25B2F0029024C /* SNTXViewController.m */,
-				7A1DA84E17F25B7D0029024C /* UIFont+Octicons.h */,
-				7A1DA84F17F25B7D0029024C /* UIFont+Octicons.m */,
 				7A1DA85117F25C310029024C /* NSString+Octicons.h */,
 				7A1DA85217F25C310029024C /* NSString+Octicons.m */,
 				7A1DA85417F26AC30029024C /* UIImage+Octicons.h */,
@@ -143,7 +149,6 @@
 		7A1DA81D17F25B2F0029024C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7A1DA85717F27C500029024C /* octicons.ttf */,
 				7A1DA81E17F25B2F0029024C /* OcticonsIOS-Info.plist */,
 				7A1DA81F17F25B2F0029024C /* InfoPlist.strings */,
 				7A1DA82217F25B2F0029024C /* main.m */,
@@ -170,6 +175,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D4399589CF933384D6821F49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AE81815D730D5D5FC36A048 /* Pods-OcticonsIOS.debug.xcconfig */,
+				B1C86EE0147F28F013F8665B /* Pods-OcticonsIOS.release.xcconfig */,
+				53C5E009DDAF436F88E8E219 /* Pods-OcticonsIOSTests.debug.xcconfig */,
+				45E390DE1D6FCD5C07561780 /* Pods-OcticonsIOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A1DA84817F25B300029024C /* Build configuration list for PBXNativeTarget "OcticonsIOS" */;
 			buildPhases = (
+				645295D663842B72008600DD /* [CP] Check Pods Manifest.lock */,
 				7A1DA80F17F25B2F0029024C /* Sources */,
 				7A1DA81017F25B2F0029024C /* Frameworks */,
 				7A1DA81117F25B2F0029024C /* Resources */,
+				31428E0E7FB13A66D8B0469D /* [CP] Embed Pods Frameworks */,
+				0D780AB50214D753F4EB0C25 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A1DA84B17F25B300029024C /* Build configuration list for PBXNativeTarget "OcticonsIOSTests" */;
 			buildPhases = (
+				2131FBC3242F3A61C14990CD /* [CP] Check Pods Manifest.lock */,
 				7A1DA83317F25B2F0029024C /* Sources */,
 				7A1DA83417F25B2F0029024C /* Frameworks */,
 				7A1DA83517F25B2F0029024C /* Resources */,
+				04E23683BC876FB68D9EFD82 /* [CP] Embed Pods Frameworks */,
+				1FD195357FCEC798D7E0A5E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,7 +269,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A1DA85817F27C500029024C /* octicons.ttf in Resources */,
 				7A1DA83217F25B2F0029024C /* Images.xcassets in Resources */,
 				7A1DA82A17F25B2F0029024C /* Main_iPhone.storyboard in Resources */,
 				7A1DA82117F25B2F0029024C /* InfoPlist.strings in Resources */,
@@ -264,6 +285,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04E23683BC876FB68D9EFD82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OcticonsIOSTests/Pods-OcticonsIOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D780AB50214D753F4EB0C25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OcticonsIOS/Pods-OcticonsIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FD195357FCEC798D7E0A5E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OcticonsIOSTests/Pods-OcticonsIOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2131FBC3242F3A61C14990CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		31428E0E7FB13A66D8B0469D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OcticonsIOS/Pods-OcticonsIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		645295D663842B72008600DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A1DA80F17F25B2F0029024C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -271,7 +385,6 @@
 			files = (
 				7A1DA85317F25C310029024C /* NSString+Octicons.m in Sources */,
 				7A1DA85617F26AC30029024C /* UIImage+Octicons.m in Sources */,
-				7A1DA85017F25B7D0029024C /* UIFont+Octicons.m in Sources */,
 				7A1DA82317F25B2F0029024C /* main.m in Sources */,
 				7A1DA83017F25B2F0029024C /* SNTXViewController.m in Sources */,
 				7A1DA82717F25B2F0029024C /* SNTXAppDelegate.m in Sources */,
@@ -400,12 +513,14 @@
 		};
 		7A1DA84917F25B300029024C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE81815D730D5D5FC36A048 /* Pods-OcticonsIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OcticonsIOS/OcticonsIOS-Prefix.pch";
 				INFOPLIST_FILE = "OcticonsIOS/OcticonsIOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -414,12 +529,14 @@
 		};
 		7A1DA84A17F25B300029024C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C86EE0147F28F013F8665B /* Pods-OcticonsIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OcticonsIOS/OcticonsIOS-Prefix.pch";
 				INFOPLIST_FILE = "OcticonsIOS/OcticonsIOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -428,6 +545,7 @@
 		};
 		7A1DA84C17F25B300029024C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C5E009DDAF436F88E8E219 /* Pods-OcticonsIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OcticonsIOS.app/OcticonsIOS";
@@ -451,6 +569,7 @@
 		};
 		7A1DA84D17F25B300029024C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E390DE1D6FCD5C07561780 /* Pods-OcticonsIOSTests.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OcticonsIOS.app/OcticonsIOS";
