@@ -12,7 +12,7 @@
 
 #import "UIImage+Octicons.h"
 #import "NSString+Octicons.h"
-#import <UIFont+Octicons.h>
+#import "UIFont+Octicons.h"
 
 @implementation UIImage (Octions)
 
